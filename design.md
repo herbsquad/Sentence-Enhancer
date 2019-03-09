@@ -4,4 +4,4 @@
 ### web app
   javascript plugin for audio recording stream  
   speech to text api integration  
-  some way to output to mic input stream   
+  some way to output audio to mic input stream   
