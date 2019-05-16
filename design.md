@@ -1,5 +1,5 @@
 # Design document for the Sentence Enhancer Web Application
-Authors: Derek Herbert, Tyler Herbert
+Authors: Derek Herbert, Tyler Herbert  
 Last Modified: May 16, 2019
 
 ## Table of Contents 
