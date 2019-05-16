@@ -2,9 +2,17 @@
 Authors: Derek Herbert, Tyler Herbert  
 Last Modified: May 16, 2019
 
-## Table of Contents 
+
 ### Overview
+This document outlines the design for a "sentence enhancer" web application. The proposed application will listen for configured keywords in a microphone audio stream; when a configured keyword is detected, a configured sound is played through users microphone.
+
+E.g. "Get wrecked" is heard, ham horn noise plays.
+
 ### Context
+This project's primary purpose is to allow the authors (Tyler and Derek) to demonstrate their ability to manage and execute the design, creation, testing and deployment of a web application using modern web development practices and technologies. 
+
+The secondary goal is to create a fun and useful tool for gamers and streamers that allows them to play whimsical noises without having to change windows/applications and play them actively (like you would with a soundboard).
+
 ### Goals and Non-Goals
 The Goals section should:
 
