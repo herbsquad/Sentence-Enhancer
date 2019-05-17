@@ -11,7 +11,7 @@ E.g. "Get wrecked" is heard, ham horn noise plays.
 ### Context
 This project's primary purpose is to allow the authors (Tyler and Derek) to demonstrate their ability to manage and execute the design, creation, testing and deployment of a web application using modern web development practices and technologies. 
 
-The secondary goal is to create a fun and useful tool for gamers and streamers that allows them to play whimsical noises without having to change windows/applications and play them actively (like you would with a soundboard).
+The secondary purpose is to create a fun and useful tool for gamers and streamers that allows them to play whimsical noises without having to change windows/applications and play them actively (like you would with a soundboard).
 
 ### Goals and Non-Goals
 The Goals section should:
@@ -33,13 +33,14 @@ End Date: Add feature X, Y, Z to new system: July 14th, 2018
 Add an [Update] subsection here if the ETA of some of these milestone changes, so the stakeholders can easily see the most up-to-date estimates.
 
 ### Proposed Solution
-Some people call this the Technical Architecture section. Again, try to walk through a user story to concretize this. Feel free to include many sub-sections and diagrams.
-
-Provide a big picture first, then fill in lots of details. Aim for a world where you can write this, then take a vacation on some deserted island, and another engineer on the team can just read it and implement the solution as you described.
-
-  javascript plugin for audio recording stream  
-  speech to text api integration  
-  some way to output audio to mic input stream 
+The proposed solution has 7 major pieces:
+  1. An interface to create/manage user accounts.
+  2. An interface to configure keywords/audio to listen for.
+  3. An interface to upload sound bytes to play when keywords are detected.
+  4. A method for sending a live audio stream from user's mic (from browser) to our server.
+  5. A method for recognizing keywords in live audio stream
+  6. A method for outputting sound byte through user's mic (from browser)
+  7. Payment processing API integration with Stripe
 
 ### Testability, Monitoring and Alerting
 I like including this section, because people often treat this as an afterthought or skip it all together, and it almost always comes back to bite them later when things break and they have no idea how or why.
