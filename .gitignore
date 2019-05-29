@@ -1,1 +1,2 @@
-senhancer/senhancer/settings.py
+senhancer/settings/env_settings.py
+*.pyc
